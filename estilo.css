@@ -3,22 +3,26 @@ body {
     background-color: #FF9A8B;
     background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
     */
-    background-image: url('images/stack_of_books_pattern.jpg');  /* se debe buscar imagen
-    background-repeat: repeat;*/
+    /*background-image: url('images/stack_of_books_pattern.jpg');  /* se debe buscar imagen
+    background-repeat: no-repeat;*/
+    background-image: url("img/logo.webp");
+    background-size: cover;
     font-size: 25px;
-    background-color: rgb(206, 194, 178);
+    /*background-color: rgb(206, 194, 178);*/
     text-align: center;
 }
-
-img#img-anne {    
-    border: 5px solid black;
-    border-right: 10px solid black;
-    border-bottom: 10px solid black;
-    height: 190px;
-    width: auto;    
+div.columna-1{
+width: 45%;
+float: left;
 }
-
-
+div.columna-2{
+    width: 45%;
+    float: left;
+    }
+div.columna-3 {
+width: 10%;
+float: left;
+}
 div.formulario {
     width: 500px;
     margin: auto;
@@ -36,9 +40,35 @@ button {
 }
 div.titulo {
     text-align: center;
-    color: green;
+    background-color: rgb(178, 182, 206);
+    color: rgb(29, 6, 82);
+    font-weight: bold
 }
 
+div.titulo2 {
+     text-align: center;
+     width:  550px;
+     margin: auto;
+     background-color: rgb(178, 182, 206);
+     color: rgb(44, 13, 156);
+     font-weight: bold
+}
+div.titulo3 {
+    text-align: center;
+    width:  430px;
+    margin: auto;
+    background-color: rgb(178, 182, 206);
+    color: rgb(44, 13, 156);
+    font-weight: bold
+}
+div.texto1 {
+    text-align: center;
+    width:  430px;
+    margin: auto;
+    background-color: rgb(178, 182, 206);
+    color: rgb(89, 156, 13);
+    font-weight: bold
+}
 div.botones {
     text-align: center;
     margin-top: 1.5em;
@@ -66,3 +96,6 @@ select {
     border: 1px solid brown;
     border-radius: 5px;
 }
+div.autora {
+  display: block; margin: auto;
+   }
