@@ -5,7 +5,7 @@ body {
     */
     /*background-image: url('images/stack_of_books_pattern.jpg');  /* se debe buscar imagen
     background-repeat: no-repeat;*/
-    background-image: url("img/logo.webp");
+    background-image: url("img/fondo1.jpg");
     background-size: cover;
     font-size: 25px;
     /*background-color: rgb(206, 194, 178);*/
@@ -23,7 +23,7 @@ div.menu
   ul{
     list-style: none;
     width: 620px;
-margin: 0 auto;
+    margin: 0 auto;
   }
   #menu li>a{
     background-color: grey;
@@ -49,39 +49,19 @@ margin: 0 auto;
   }
 
 div.columna-1{
-width: 45%;
+width: 50%;
 float: left;
 }
 div.columna-2{
-    width: 45%;
+    width: 50%;
     float: left;
     }
-div.columna-3 {
-width: 10%;
-float: left;
-}
-div.formulario {
-    width: 500px;
-    margin: auto;
-    background-color: rgb(178, 182, 206);
-    padding: 30px;
-    border-radius: 15px;   
-    text-align: left; 
-}
-
-button {
-    background-color: red;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-}
 div.titulo {
     text-align: center;
-    background-color: rgb(178, 182, 206);
+    background-color: rgb(118, 209, 164);
     color: rgb(29, 6, 82);
     font-weight: bold
 }
-
 div.titulo2 {
      text-align: center;
      width:  550px;
@@ -92,11 +72,11 @@ div.titulo2 {
 }
 div.titulo3 {
     text-align: center;
-    width:  430px;
-    margin: auto;
-    background-color: rgb(178, 182, 206);
-    color: rgb(44, 13, 156);
-    font-weight: bold
+     width:  550px;
+     margin: auto;
+     background-color: rgb(178, 182, 206);
+     color: rgb(44, 13, 156);
+     font-weight: bold
 }
 div.texto1 {
     text-align: center;
@@ -104,24 +84,7 @@ div.texto1 {
     margin: auto;
     background-color: rgb(178, 182, 206);
     color: rgb(89, 156, 13);
-    border-radius: 15px;   
     font-weight: bold
-}
-div.botones {
-    text-align: center;
-    margin-top: 1.5em;
-}
-
-label {
-    width: 200px;
-    display: inline-block;
-}
-
-input {
-    font-size: 15px;
-    padding: 7px 10px;
-    border: 1px solid brown;
-    border-radius: 5px;
 }
 
 div.form-line {

@@ -1,3 +1,4 @@
+/*Estido de donde comprar*/
 body {
     /*
     background-color: #FF9A8B;
@@ -22,6 +23,8 @@ div.menu
   }
   ul{
     list-style: none;
+    width: 620px;
+    margin: 0 auto;
   }
   #menu li>a{
     background-color: grey;
@@ -56,8 +59,8 @@ div.columna-2{
     }
 div.titulo {
     text-align: center;
-    background-color: rgb(178, 182, 206);
-    color: rgb(29, 6, 82);
+    background-color: rgb(219, 118, 51);
+    color: rgb(44, 13, 156);
     font-weight: bold
 }
 div.titulo2 {
