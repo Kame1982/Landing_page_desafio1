@@ -84,22 +84,6 @@ div.texto1 {
     color: rgb(89, 156, 13);
     font-weight: bold
 }
-div.botones {
-    text-align: center;
-    margin-top: 1.5em;
-}
-
-label {
-    width: 200px;
-    display: inline-block;
-}
-
-input {
-    font-size: 15px;
-    padding: 7px 10px;
-    border: 1px solid brown;
-    border-radius: 5px;
-}
 
 div.form-line {
     margin-bottom: 15px;
