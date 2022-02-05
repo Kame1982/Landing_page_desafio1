@@ -12,12 +12,10 @@ body {
     text-align: center;
 }
 div.menu
-{
-    text-align: center;
+{   text-align: center;
     margin: 0;
     padding: 0;
-  }
-  header{
+  } header{
     font-family: Helvetica;
     width: 480px;
     margin: 0 auto;
@@ -33,16 +31,16 @@ div.menu
     text-decoration: none;
     min-width: 100px;
   }
-  #menu li>a:hover{
-    color: #000;
+  #menu li>a:hover{              /* cambio de color cuando se sobrepone mouse */
+    color: rgb(168, 13, 13);
     background-color: #eaeaea;
   }
   #menu>li{
     float: left;
-    text-align:center
+    text-align:center;
   }
   #menu>li>ul{
-    display: none;
+    display: center;
   }
   #menu>li:hover>ul {
     display:block;
