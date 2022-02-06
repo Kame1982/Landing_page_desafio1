@@ -1,14 +1,8 @@
 body {
-    /*
-    background-color: #FF9A8B;
-    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
-    */
-    /*background-image: url('images/stack_of_books_pattern.jpg');  /* se debe buscar imagen
-    background-repeat: no-repeat;*/
+
     background-image: url("img/fondo1.jpg");
     background-size: cover;
     font-size: 25px;
-    /*background-color: rgb(206, 194, 178);*/
     text-align: center;
 }
 div.menu
@@ -48,12 +42,12 @@ div.menu
     display:block;
   }
 
-div.columna-1{
-width: 50%;
-float: left;
+  div.columna-1{
+  width: 45%;
+  float: left;
 }
 div.columna-2{
-    width: 50%;
+    width: 45%;
     float: left;
     }
 div.titulo {
@@ -63,44 +57,32 @@ div.titulo {
     font-weight: bold
 }
 div.titulo2 {
+     width: 350px;
+     margin: auto;
      text-align: center;
-     width:  550px;
-     margin: auto;
-     background-color: rgb(178, 182, 206);
-     color: rgb(44, 13, 156);
-     font-weight: bold
-}
-div.titulo3 {
-    text-align: center;
-     width:  550px;
-     margin: auto;
      background-color: rgb(178, 182, 206);
      color: rgb(44, 13, 156);
      font-weight: bold
 }
 div.texto1 {
-    text-align: center;
-    width:  430px;
-    margin: auto;
-    background-color: rgb(178, 182, 206);
-    color: rgb(89, 156, 13);
-    font-weight: bold
+  width: 350px;
+  margin: auto;
+  background-color: rgba(236, 217, 217, 0.342);
+  color: rgb(31, 7, 104);
+  padding: 20px;
+  border-radius: 15px;   
+  
+  text-align: center; 
+  font-weight: bold
+}
+div.texto2 {
+  width: 350px;
+  margin: auto;
+  background-color: rgba(236, 217, 217, 0.342);
+  color: rgb(31, 7, 104);
+  padding: 20px;
+  border-radius: 15px;   
+  text-align: center; 
+  font-weight: bold
 }
 
-div.form-line {
-    margin-bottom: 15px;
-}
-
-select {
-    padding: 8px 20px;
-    font-size: 15px;
-    border: 1px solid brown;
-    border-radius: 5px;
-}
-div.autora {
-  display: block; margin: auto;
-   }
-
-div.mapa {
-  border-radius: 50px;  
-}
